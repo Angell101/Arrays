@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         task1();// задача 1
         task2();// задача 2
         task3();// задача 3
-        //task4();// задача 4
+        task4();// задача 4
 
     }
 
@@ -81,6 +83,15 @@ public class Main {
     }
 
     public static void task4() {
+        System.out.println("Задание 4");
 
+        int[] arr1 = {1, 2, 3};
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]);
+            if (arr1[i] % 2 != 0) {
+                System.out.println(Arrays.toString(arr1));
+            }
+        }
     }
+    // Если честно, не очень понял суть 4 задания, надеюсь, я правильно селал.
 }
